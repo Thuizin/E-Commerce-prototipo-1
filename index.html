@@ -24,69 +24,69 @@
                 <li>
                     <i class='bx bx-search'></i>
                     <input type="text" placeholder="Pesquisar..."></input>
-                <!-- <span class="tooltip">DashBoard</span> -->
+                <span class="tooltip">Pequisar</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-grid-alt'></i>
                         <span class="link_name">DashBoard</span>
                     </a>
-                    <!-- <span class="tooltip">DashBoard</span> -->
+                    <span class="tooltip">DashBoard</span>
                     </li>
                     <li>
                         <a href="#">
                             <i class='bx bx-user'></i>
                             <span class="link_name">Usuário</span>
                         </a>
-                        <!-- <span class="tooltip">DashBoard</span> -->
+                        <span class="tooltip">Usuário</span>
                         </li>
                         <li>
                             <a href="#">
                                 <i class='bx bx-chat'></i>
                                 <span class="link_name">Mensagem</span>
                             </a>
-                            <!-- <span class="tooltip">DashBoard</span> -->
+                            <span class="tooltip">Mensagem</span>
                             </li>
                             <li>
                                 <a href="#">
                                     <i class='bx bx-pie-chart-alt-2'></i>
                                     <span class="link_name">Análise</span>
                                 </a>
-                                <!-- <span class="tooltip">DashBoard</span> -->
+                                <span class="tooltip">Análise</span>
                                 </li>
                                 <li>
                                     <a href="#">
                                         <i class='bx bx-folder'></i>
                                         <span class="link_name">Arquivos</span>
                                     </a>
-                                    <!-- <span class="tooltip">DashBoard</span> -->
+                                    <span class="tooltip">Arquivos</span>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <i class='bx bx-cart-alt'></i>
                                             <span class="link_name">Carrinho</span>
                                         </a>
-                                        <!-- <span class="tooltip">DashBoard</span> -->
+                                        <span class="tooltip">Carrinho</span>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <i class='bx bx-purchase-tag-alt'></i>
                                                 <span class="link_name">Compras</span>
                                             </a>
-                                            <!-- <span class="tooltip">DashBoard</span> -->
+                                            <span class="tooltip">Compras</span>
                                             </li>
                                             <li>
                                                 <a href="#">
                                                     <i class='bx bx-cog'></i>
                                                     <span class="link_name">Configurações</span>
                                                 </a>
-                                                <!-- <span class="tooltip">DashBoard</span> -->
+                                                <span class="tooltip">Configurações</span>
                                                 </li>
             </ul>
             <div class="profile_content">
                 <div class="profile">
                     <div class="profile_details">
-                        <!-- <img src="imagens/profile.jpg" alt=""> -->
+                        <img src="imagens/profile.jpg" alt="catioro">
                         <div class="name_job">
                             <div class="name">Catioro</div>
                             <div class="job">Web Designer</div>
@@ -96,15 +96,20 @@
                 </div>
             </div>
         </div>
+        <div class="home_content">
+            <div class="text">Home Content</div>
+        </div>
+    <script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    let searchBtn = document.querySelector(".bx-search");
 
-    </header>
-
-    <main class="main">
-
-    </main>
-
-    <footer class="footer">
-
-    </footer>
+    btn.onclick = function() {
+        sidebar.classList.toggle("active");
+    }
+    searchBtn.onclick = function() {
+        sidebar.classList.toggle("active");
+    }
+    </script>
 </body>
 </html>
