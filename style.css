@@ -1,3 +1,7 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 body,
 ul {
   margin: 0px;
@@ -7,7 +11,8 @@ ul {
 a {
   color: black;
   text-decoration: none;
-  font-family: sans-serif;
+  font-size: 18px;
+  font-family: 'Courier Prime', monospace;
 }
 
 a:hover {
@@ -26,7 +31,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #e7e7e7;
+  background: linear-gradient(to left, rgb(0, 0, 255), rgb(89, 0, 255));
 }
 
 #menu {
