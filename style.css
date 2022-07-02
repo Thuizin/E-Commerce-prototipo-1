@@ -532,7 +532,7 @@ main .recent-orders a{
     font-weight: 500;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERY 1*/
 @media screen and (max-width: 1200px){
     .container{
         width: 94%;
@@ -578,3 +578,5 @@ main .recent-orders a{
         display: none;
     }
 }
+
+/* MEDIA QUERY 2 */
